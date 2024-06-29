@@ -1,0 +1,108 @@
+body{
+    background-color: #F9F7F7;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    border: 2px solid #A88F90;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #F2EEEE;
+    color: #A88F90;
+    transition: all 0.2s ease-in-out;
+}
+
+li:hover{
+    transform: scale(1.03);
+    color: #F2EEEE;
+    background-color: #A88F90;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #F2EEEE;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.hero{
+    height: 45vh;
+    width: 100vh;
+    background-color: #E8E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px #9b9999;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.hero:hover{
+    transform: scale(1.01);
+}
+
+.contenthero{
+    height: 28%;
+    width: 70%;
+    background-color: #8F7374;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9F7F7;
+    border-radius: 15px;
+    opacity: 60%;   
+}
+.bento{
+    /* background-color: aqua; */
+    height: 38vh;
+    width: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.bento div{
+    background: linear-gradient(45deg, #6E5D5E, #D4B4B5);
+    border-radius: 6px;
+    opacity: 70%;
+    border: 1px solid #6E5D5E;
+    color: #F9F7F7;
+}
+
+.uno{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dos, .tres{
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+
